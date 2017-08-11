@@ -18,11 +18,11 @@ export default {
             'activateBottomNav'
         ])
     },
-    async asyncData() {
-        await new Promise((resolve, reject) => {
-            setTimeout(resolve, 500);
-        });
-    },
+    // async asyncData() {
+    //     await new Promise((resolve, reject) => {
+    //         setTimeout(resolve, 500);
+    //     });
+    // },
     activated() {
         this.activateBottomNav('lottery');
         this.showBottomNav();
